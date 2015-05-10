@@ -4,6 +4,8 @@
       margin: 0px;
       background: #111111;
       color: #AAAAAA;
+      padding-left: 150px;
+      padding-right: 150px;
     }
 
     #header {
@@ -14,8 +16,13 @@
     }
 
     #body-text{
+      background: #202020;
       font-size:16px;
-      color: #FFFFFF;
+      color: #CCCCCC;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px;
       clear: both;
     }
 
@@ -34,7 +41,12 @@
       list-style: none;
     }
 
-    ul li{
+    #body-list {
+      font-variant: none;
+
+    }
+
+    #header ul li{
       font-variant: small-caps !important;
       float: left;
       width: 110px;
@@ -56,6 +68,7 @@
 
     ul li ul{
       display: none;
+      font-size: 18px;
     }
 
     ul li:hover ul{
