@@ -23,7 +23,7 @@
       padding-right: 40px;
       padding-top: 30px;
       padding-bottom: 30px;
-      clear: both;
+      clear: left;
     }
 
     a:link, a:visited {
@@ -51,6 +51,7 @@
       float: left;
       width: 110px;
       text-align: center;
+      /*font-weight: normal;*/
     }
 
     ul li a{
