@@ -1,8 +1,16 @@
-$(function showHide() {
-	if ($(this).is(':visible')) {
-		$(this).hide();		
+function showHide() {
+	if($(this).is(":visible")) {
+		($(this)).hide();
 	}
-	else {
-		$(this).show();
+	else{
+		($(this)).hide();
 	}
+};
+
+$(function() {
+	$("#ee40").click(showHide);
 });
+
+// function myHide() {
+// 	$(this).hide();
+// }
