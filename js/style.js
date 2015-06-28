@@ -1,13 +1,15 @@
 function showHide() {
-	if($(this).is(":visible")) {
-		($(this)).hide();
+	if($("p").is(":visible")) {
+		($("p")).hide();
 	}
 	else{
-		($(this)).hide();
+		($("p")).show();
 	}
 };
 
 $(function() {
+	/* 
+	 */
 	$("#ee40").click(showHide);
 });
 

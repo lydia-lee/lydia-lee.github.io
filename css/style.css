@@ -798,6 +798,7 @@
 		position: absolute;
 		right: 0em;
 		top: 2.2em;
+		z-index: 10;
 	}
 
 		#nav > ul > li
@@ -824,12 +825,28 @@
 				color: #333;
 			}
 
-			#nav li.active a
+			#nav li.active > a
 			{
 				background: #33cccc;
 				border-radius: 5px;
 				color: #FFF;
 			}
+
+			#nav li ul
+			{
+				display: none;
+			}
+
+			#nav li:hover > ul
+			{
+				display: block;
+				background: #fff;
+				text-align: center;
+				border-radius: 5px
+				
+			}
+
+			#nav 
 
 			#nav > ul > li > ul
 			{
