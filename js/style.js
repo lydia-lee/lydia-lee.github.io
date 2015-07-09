@@ -1,3 +1,6 @@
+function 
+
+// Show or hide upon click
 function showHide() {
 	if($("p").is(":visible")) {
 		($("p")).hide();
@@ -7,6 +10,8 @@ function showHide() {
 	}
 };
 
+
+/* Document Ready */
 $(function() {
 	/* 
 	 */
