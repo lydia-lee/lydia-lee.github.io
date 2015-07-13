@@ -1,0 +1,28 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage[margin=.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{seqsplit}
+\usepackage{hyperref}
+\usepackage[american]{circuitikz}
+
+\begin{document}
+	\pagestyle{empty}
+	\setlist{nosep}
+	
+	\begin{figure}[h!]
+		\begin{circuitikz}
+			\draw (0, 0) node[op amp] (opamp) {}
+			(opamp.-) to[R=$R_s$] (-3, 0.5)
+			(opamp.-) to[short,*-] ++(0,1.5) coordinate (leftC)
+			to[R=$R_f$] (leftC -| opamp.out)
+			to[short,-*] (opamp.out);
+		\end{circuitikz}
+	\end{figure}
+\end{document}
