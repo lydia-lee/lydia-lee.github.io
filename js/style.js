@@ -90,11 +90,14 @@ function generateNav(active_li) {
 	}
 };
 
+
+
 /* Document Ready */
 $(function() {
 	// Generate nav bar
 	$(document).on('ready', function() {
 		generateNav(document.body.id);
+		// generateFooter();
 	})
 	
 
