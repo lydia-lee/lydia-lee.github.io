@@ -71,10 +71,7 @@ function generateNav(active_li) {
 	eduListID = navListID + "Edu";
 
 	var edu_dictionary = {
-		"EE20": "ee20.html",
-		"EE40": "ee40.html",
-		"EE120": "ee120.html",
-		"EE130": "ee130.html"
+		"EE16A": "ee16a.html",
 	}
 	appendUl("LEARNING", eduListID);
 	var eduList = document.getElementById(eduListID);
