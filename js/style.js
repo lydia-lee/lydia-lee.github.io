@@ -43,8 +43,9 @@ function generateNav(active_li) {
 
 	var nav_dictionary = {
 		"Homepage": "index.html",
-		"Toys & Tools": "toys-and-tools.html",
+		"Work & Research": "work-and-research.html",
 		"Learning": "education.html",
+		"For Fun": "for-fun.html",
 		"About Me": "about.html"
 	};
 
