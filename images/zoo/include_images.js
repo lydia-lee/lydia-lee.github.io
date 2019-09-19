@@ -1,0 +1,24 @@
+document.write(`<img src="images/zoo/DSC_0010.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0071.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0099_cropped.jpg" style="max-height:300px">
+<img src="images/zoo/DSC_0109.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0150.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0192.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0193.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0214.jpg" style="max-height:300px">
+<img src="images/zoo/DSC_0240.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0258.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0277_cropped.jpg" style="max-height:300px">
+<img src="images/zoo/DSC_0382.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0506.jpg" style="max-height:300px">
+<img src="images/zoo/DSC_0608.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0614.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0621.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0658.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0680.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0715_cropped.jpg" style="max-height:300px">
+<img src="images/zoo/DSC_0731.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0786.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0811.JPG" style="max-height:300px">
+<img src="images/zoo/DSC_0909.JPG" style="max-height:300px">
+`);
