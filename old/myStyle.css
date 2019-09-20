@@ -1,0 +1,26 @@
+div.scrollmenu {
+  background-color: #eee;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+div.scrollitem {
+	max-height: 900px;
+	float: left;
+	padding-left: 10px
+	padding-right: 10px;
+}
