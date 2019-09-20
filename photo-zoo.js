@@ -25,5 +25,5 @@ for (var pic in zoo) {
 		+ caption
 		+ '"><a href="#"><img src="images/small-zoo/'
         + pic
-        + '.jpg" alt="" class="img-fluid"></a></div>');
+        + '.jpg" alt="IMage" class="img-fluid"></a></div>');
 }
