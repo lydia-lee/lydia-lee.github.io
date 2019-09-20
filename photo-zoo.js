@@ -1,6 +1,6 @@
 var zoo = {
 	fw_lion2: "<h4>African Lioness, Fort Worth Zoo</h4><p>When the Texan summer sun kicks in, the bugs come out.</p>",
-	fw_tiger1: "<h4>Malayn Tiger, Fort Worth Zoo</h4><p>A sleepy Malayan tiger at the Fort Worth Zoo on a hot Texan afternoon.</p>",
+	fw_tiger1: "<h4>Malayan Tiger, Fort Worth Zoo</h4><p>A sleepy Malayan tiger at the Fort Worth Zoo on a hot Texan afternoon.</p>",
 	oak_alligator1: "<h4>American Alligator, Oakland Zoo</h4><p>A sneaky-looking alligator enjoying the water.</p>",
 	oak_baboon1: "<h4>Hamadryas Baboon, Oakland Zoo</h4><p>The juvenile Hamadryas baboon was very interested in my camera.</p>",
 	sd_gorilla1: "<h4>Gorilla, San Diego Zoo</h4><p>This young fellow was practicing his chest-beating.</p>",
