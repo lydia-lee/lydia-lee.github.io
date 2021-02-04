@@ -13,7 +13,8 @@ var garden = {
 	home_egret1: "<h4>Fort Worth, Texas</h4><p></p>",
 	home_goose1: "<h4>Fort Worth, Texas</h4><p></p>",
 	home_turtle1: "<h4>Fort Worth, Texas</h4><p></p>",
-	sf_platform1: "<h4>San Francisco Botanical Garden, San Francisco, California</h4><p></p>"
+	sf_platform1: "<h4>San Francisco Botanical Garden, San Francisco, California</h4><p></p>",
+	berk_spood: "<h4>Berkeley Rose Garden, Berkeley, California</h4><p></p>"
 };
 
 for (var pic in garden) {
