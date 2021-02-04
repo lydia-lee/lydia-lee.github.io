@@ -52,6 +52,7 @@ document.write(`
                       <a href="#">EE140/240A</a>
                       <ul class="dropdown">
                         <li><a href="https://inst.eecs.berkeley.edu/~ee140/fa19/">Fall 2019</a></li>
+                        <li><a href="https://inst.eecs.berkeley.edu/~ee140/sp20/">Spring 2020</a></li>
                       </ul>
                     </li>
                   </ul>
