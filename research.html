@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lydia Lee | Research</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header><a href="./index.html">Lydia Lee</a></header>
+	<nav>
+        <a href="./index.html">Home</a>
+        <a href="./research.html">Research</a>
+        <a href="https://drive.google.com/file/d/1tJHv-do2KpP_IbrVuGewxAW9BxAkyuC_/view?usp=sharing" target="_blank" rel="noreferrer noopener">CV</a>
+        <a href="./teaching.html">Teaching</a>
+        <a href="./misc.html">Other</a>
+    </nav>
+	<main>
+		<section class="accordion" id="spani">
+			<input type="checkbox" name="collapse" id="handle1" checked="checked">
+			<h1 class="handle">
+			<label for="handle1">The Solar Probe Analyzer for Ions (SPAN-I)</label>
+			</h1>
+			<div class="content">
+				<p>Solar activity can give us the northern and southern lights; it can also interfere with infrastructure on the ground and in space; and understanding solar activity is critical to protecting astronauts.</p>
+				<p>The <u>S</u>olar <u>P</u>robe <u>An</u>alyzer for <u>I</u>ons (SPAN-I) is an electrostatic analyzer with a time-of-flight mass spectrometer designed by the <a href="https://www.ssl.berkeley.edu/" target="_blank" rel="noreferrer noopener">Berkeley Space Sciences Lab</a> to measure the ion composition and distribution function of the thermal corona and solar wind plasma (Livi, <i>et al</i>. 2022. <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac93f5/meta" target="_blank" rel="noreferrer noopener">10.3847/1538-4357/ac93f5</a>). At the highest level, SPAN-I's goal is to improve our nowcasting and forecasting abilities for space weather.</p>
+				<center><img src="./img/spani_instrument.png" alt="SPAN-I Instrument"></center>
+				<p>My role is designing the sensor frontend ASIC for the mass spectrometer. The underlying architecture is a modification of traditional constant fraction discrimination (CFD) to guarantee a known and consistent trigger fraction irrespective of pulse shape, as well as relax timing constraints on analog delay blocks which sit at the heart of the pulse shaping.</p> 
+				<p>We taped out once in 2021 and once more in 2022, with both chips' schematic design assisted the Berkeley Analog Generator 2.0 (Chang <i>et al</i>. 2018. <a href="https://ieeexplore.ieee.org/document/8357061" target="_blank" rel="noreferrer noopener">10.1109/CICC.2018.8357061</a>). If all goes well, these chips will be flying to Mars with <a href="https://escapade.ssl.berkeley.edu/" target="_blank" rel="noreferrer noopener">ESCAPADE</a>!</p>
+				<center><img src="./img/spani_chip.jpg" alt="SPAN-I Chip"></center>
+				<p>Photo courtesy of Alexander Alvara.</p>
+				<ul>
+					<li><a href="https://bsac.berkeley.edu/publications/bpn956-time-flight-hardware-solar-probe-analyzer-ions-span-ion" target="_blank" rel="noreferrer noopener">BSAC project page (BPN956)</a></li>
+					<li><a href="https://drive.google.com/file/d/1ym1878568ITSTXk_ayD22KUFAysudWo3/view?usp=sharing" target="_blank" rel="noreferrer noopener">qualifying exam slides</a></li>
+				</ul>
+				These are just the people who have been directly involved with ASIC design and test; SPAN-I is a much larger meta-project!
+				<ul>
+					<li><a href="https://www.researchgate.net/profile/Mia-Mirkovic-2" target="_blank" rel="noreferrer noopener">Mia Mirkovic</a> (University of Michigan, SPRL)</li>
+					<li><a href="https://www.linkedin.com/in/artundalyan" target="_blank" rel="noreferrer noopener">Artun Dalyan</a> (11Sight)</li>
+					<li>Peter Peng (Masters student at Columbia University)</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="accordion" id="bliss">
+			<input type="checkbox" name="collapse" id="handle2" checked="checked">
+			<h1 class="handle">
+			<label for="handle2">The Berkeley Low-Cost Interplanetary Solar Sail (BLISS)</label>
+			</h1>
+			<div class="content">
+				<p>The <u>B</u>erkeley <u>L</u>ow-Cost <u>I</u>nterplanetary <u>S</u>olar <u>S</u>ail is our attempt to make space exploration faster and more affordable via mass deployment of solar sails, specifically to collect sensor data from celestial objects.</p>
+				<p>There are a variety of subsystems within BLISS, but my focus (and that of Bhuvan) lies with communication over extremely long distances with the ground and between solar sail devices. We're currently working on setting up an open-source Python-based model and simulation base for our communication link, with an eye on photon counting (specifically SPAD)-based receiving.</p>
+				<ul>
+					<li><a href="https://bsac.berkeley.edu/publications/bpn951-berkeley-low-cost-interplanetary-solar-sail-bliss" target="_blank" rel="noreferrer noopener">BSAC project page (BPN951)</a></li>
+				</ul>
+				Multiple people have worked on this project, some of whom have since graduated.
+				<ul>
+					<li><a href="https://sites.google.com/berkeley.edu/engineer-alvara/home?authuser=0" target="_blank" rel="noreferrer noopener">Alexander Alvara</a></li>
+					<li><a href="https://www.linkedin.com/in/emmanuel-sin-28410812/" target="_blank" rel="noreferrer noopener">Emmanuel Sin</a></li>
+					<li><a href="https://www.linkedin.com/in/bhuvanbelur/" target="_blank" rel="noreferrer noopener">Bhuvan Belur</a></li>
+					<li><a href="https://natolambert.com" target="_blank" rel="noreferrer noopener">Nathan Lambert</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="accordion" id="scum">
+			<input type="checkbox" name="collapse" id="handle3" checked="checked">
+			<h1 class="handle">
+			<label for="handle3">The Single Chip Micro-Mote (SCμM)</label>
+			</h1>
+			<div class="content">
+				<p>The Single Chip Micro-Mote a 2mm x 3mm single-die solution for wireless sensor networks. It contains a crystal-free radio that is standards-compliant with BLE and 802.15.4 (Maksimovic <i>et al.</i> 2019. <a href="https://ieeexplore.ieee.org/abstract/document/8777971" target="_blank" rel="noreferrer noopener">10.23919/VLSIC.2019.8777971</a>); it has been used to demonstrate ~1cm accurate 3D localization (Kilberg <i>et al</i>. 2021. <a href="https://ieeexplore.ieee.org/abstract/document/9159883" target="_blank" rel="noreferrer noopener">10.1109/JMEMS.2020.3011460</a>).</p>
+				<p>My involvement began with SCμM3 and ended with SCμM3C. Since I ceased working on this project, however, the <a href="https://www2.eecs.berkeley.edu/Courses/EE194/" target="_blank" rel="noreferrer noopener">tapeout class</a> has continued the push for the single-chip solution SoC with an updated ISA (RISC-V), improved sensor interfaces (<a href="https://bsac.berkeley.edu/publications/bpn987-single-chip-%C2%B5v-precision-adc-sc%C2%B5m-v" target="_blank" rel="noreferrer noopener">BPN987</a>), power management, and more.</p>
+				<ul>
+					<li><a href="https://bsac.berkeley.edu/publications/bpn803-single-chip-mote" target="_blank" rel="noreferrer noopener">BSAC project page (BPN803)</a></li>
+					<li><a href="https://crystalfree.atlassian.net/wiki/spaces/SCUM/overview?homepageId=229432" target="_blank" rel="noreferrer noopener">Confluence</a></li>
+				</ul>
+			</div>
+		</section>
+	</main>
+</body>
